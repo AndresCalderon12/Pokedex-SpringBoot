@@ -18,7 +18,6 @@ import com.pokemonapi.Services.IPokemonService;
 import com.pokemonapi.Utils.Client;
 
 @Service
-@PropertySource(value = { "file:${app.home}/application.properties" }, ignoreResourceNotFound = true)
 public class IPokemonServiceImpl implements IPokemonService {
 
 	private ArrayList<String> abilities(Pokemon pokemon) {
