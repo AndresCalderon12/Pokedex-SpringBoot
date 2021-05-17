@@ -8,7 +8,6 @@ import com.pokemonapi.Models.games.VersionGroup;
 import com.pokemonapi.Models.resources.NamedAPIResourceList;
 import com.pokemonapi.Models.utils.NamedAPIResource;
 import com.pokemonapi.Utils.Information;
-import com.sun.jdi.Location;
 
 public class Region extends NamedAPIResource {
 	// The identifier for this resource.
