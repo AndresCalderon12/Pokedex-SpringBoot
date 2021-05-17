@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.pokemonapi.Services.IPokemonService;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://still-coast-74935.herokuapp.com")
 @RequestMapping("pokemon")
 public class PokemonController {
 	private final IPokemonService iPokemonService;
